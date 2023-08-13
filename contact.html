@@ -43,6 +43,7 @@
     <section class="container my-5">
         <div class="row">
             <div class="col-md-8 offset-md-2">
+                <div class="card p-4">
                 <form>
                     <div class="mb-3">
                         <label for="name" class="form-label">Your Name</label>
@@ -53,11 +54,23 @@
                         <input type="email" class="form-control" id="email" required>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label">Your Message</label>
+                        <label for="phone">Your Phone Number</label>
+                        <input type="tel" class="form-control" id="phone">
+                    </div>
+                    <div class="mb-3">
+                        <p>your message about :</p>
+                        <label for="plant">plant</label>
+                        <input type="radio" id="plant"> <br>
+                        <label for="website">website</label>
+                        <input type="radio" id="website">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Comment</label>
                         <textarea class="form-control" id="message" rows="5" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary"><i class="bi bi-envelope"></i> Send Message</button>
                 </form>
+                </div>
             </div>
         </div>
     </section>
