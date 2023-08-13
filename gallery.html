@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Gallery - Plant Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Plant Gallery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-info text-white text-center py-5">
+        <h1>Plant Gallery</h1>
+        <p>Explore a stunning collection of plants from around the world.</p>
+    </header>
+
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Utricularia gibba.jpg" class="card-img-top" alt="Plant 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Utricularia Gibba</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam consectetur tortor tortor, in viverra ipsum rutrum id.
+                            Nullam eget orci eu diam molestie varius quis non turpis.
+                            Duis cursus consectetur dui, ut sagittis risus fringilla in.</p>
+                        <a href="#" class="btn btn-primary"><i class="bi bi-eye"></i> View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="drosera affinis.jpg" class="card-img-top" alt="Plant 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Drosera Affinis</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam consectetur tortor tortor, in viverra ipsum rutrum id.
+                            Nullam eget orci eu diam molestie varius quis non turpis.
+                            Duis cursus consectetur dui, ut sagittis risus fringilla in.</p>
+                        <a href="#" class="btn btn-primary"><i class="bi bi-eye"></i> View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="n-villosa-1.jpg" class="card-img-top" alt="Plant 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Nepenthes Villosa</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam consectetur tortor tortor, in viverra ipsum rutrum id.
+                            Nullam eget orci eu diam molestie varius quis non turpis.
+                            Duis cursus consectetur dui, ut sagittis risus fringilla in.</p>
+                        <a href="#" class="btn btn-primary"><i class="bi bi-eye"></i> View Details</a>
+                    </div>
+                </div>
+            </div> <br><hr>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="pinguiculla martinazii.jpg" class="card-img-top" alt="Plant 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Pinguiculla Martinazii</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam consectetur tortor tortor, in viverra ipsum rutrum id.
+                            Nullam eget orci eu diam molestie varius quis non turpis.
+                            Duis cursus consectetur dui, ut sagittis risus fringilla in.</p>
+                        <a href="#" class="btn btn-primary"><i class="bi bi-eye"></i> View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="dionaea muscipulla.jpg" class="card-img-top" alt="Plant 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Dionaea Muscipulla</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam consectetur tortor tortor, in viverra ipsum rutrum id.
+                            Nullam eget orci eu diam molestie varius quis non turpis.
+                            Duis cursus consectetur dui, ut sagittis risus fringilla in.</p>
+                        <a href="#" class="btn btn-primary"><i class="bi bi-eye"></i> View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Plant Gallery. All rights reserved.</p>
+    </footer>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

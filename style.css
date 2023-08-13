@@ -1,0 +1,61 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', sans-serif;
+}
+
+header {
+    background-color: #2E7D32;
+    color: white;
+    padding: 3rem 0;
+}
+.container {
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    padding: 1rem 0;
+}
+
+.btn-primary {
+    background-color: #388E3C;
+    border: none;
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-expand-lg {
+        background-color: #388E3C;
+    }
+}
+
+img {
+    max-width: 800px;
+    max-height: 800px;
+    min-width: 300px;
+    min-height: 320px;
+}
